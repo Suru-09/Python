@@ -10,7 +10,7 @@ def main():
     if car1 == car2:
         print("Tare frate")
     else:
-        print("Da-te dreq")
+        print("Not equal")
 
     n = int(input("n = "))
 
@@ -18,8 +18,8 @@ def main():
 
     while n:
         color = input("Da culoare frate : ")
-        type = input("Ce drac de masina ai ? :")
-        price = int(input("Cat o fost cazanu ? : "))
+        type = input("Ce masina ai ? :")
+        price = int(input("Cat o fost masina ? : "))
         car = Car(color, type, price)
 
         l.append(car)
